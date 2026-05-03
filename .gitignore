@@ -1,10 +1,22 @@
 # Binaries
 *.exe
 *.out
+*.test
 
-# Go build
+# Go build output
 /bin/
+/dist/
 
-# IDE
+# Air (hot reload temp files)
+tmp/
+.air.toml
+
+# Go modules (keep go.mod and go.sum, DO NOT ignore them)
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
 .vscode/
 .idea/
