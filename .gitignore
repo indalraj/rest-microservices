@@ -1,0 +1,10 @@
+# Binaries
+*.exe
+*.out
+
+# Go build
+/bin/
+
+# IDE
+.vscode/
+.idea/
